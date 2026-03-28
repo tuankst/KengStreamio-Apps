@@ -21,9 +21,9 @@
 
 | | URL |
 |-|-----|
-| 📦 **Download (Direct)** | [https://github.com/tuankst/KengStreamio-App/releases/download/v1.6.0/kengstreamio-v1.6.0.apk](https://github.com/tuankst/KengStreamio-App/releases/download/v1.6.0/kengstreamio-v1.6.0.apk) |
+| 📦 **Download (Direct)** | [https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.6.0/kengstreamio-v1.6.0.apk](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.6.0/kengstreamio-v1.6.0.apk) |
 | 🔗 **Short Link (Tester)** | [https://is.gd/iHMbaT](https://is.gd/iHMbaT) |
-| 🐙 **GitHub Release** | [https://github.com/tuankst/KengStreamio-App/releases/tag/v1.6.0](https://github.com/tuankst/KengStreamio-App/releases/tag/v1.6.0) |
+| 🐙 **GitHub Release** | [https://github.com/tuankst/KengStreamio-Apps/releases/tag/v1.6.0](https://github.com/tuankst/KengStreamio-Apps/releases/tag/v1.6.0) |
 
 ### Copy & Gửi Cho Tester
 

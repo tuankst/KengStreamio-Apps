@@ -21,9 +21,9 @@
 
 | | URL |
 |-|-----|
-| 📦 **Download (Direct)** | [https://github.com/tuankst/KengStreamio-App/releases/download/v1.4.0/kengstreamio-v1.4.0.apk](https://github.com/tuankst/KengStreamio-App/releases/download/v1.4.0/kengstreamio-v1.4.0.apk) |
+| 📦 **Download (Direct)** | [https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.4.0/kengstreamio-v1.4.0.apk](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.4.0/kengstreamio-v1.4.0.apk) |
 | 🔗 **Short Link (Tester)** | [https://is.gd/DTQ71m](https://is.gd/DTQ71m) |
-| 🐙 **GitHub Release** | [https://github.com/tuankst/KengStreamio-App/releases/tag/v1.4.0](https://github.com/tuankst/KengStreamio-App/releases/tag/v1.4.0) |
+| 🐙 **GitHub Release** | [https://github.com/tuankst/KengStreamio-Apps/releases/tag/v1.4.0](https://github.com/tuankst/KengStreamio-Apps/releases/tag/v1.4.0) |
 
 ### Copy & Gửi Cho Tester
 
