@@ -1,6 +1,6 @@
 # KengStreamio — Android App Releases
 
-![Version](https://img.shields.io/badge/version-1.11.4-blue)
+![Version](https://img.shields.io/badge/version-1.11.6-blue)
 ![Platform](https://img.shields.io/badge/platform-Android%20TV%20%7C%20Phone-green)
 ![License](https://img.shields.io/badge/license-Private-red)
 
@@ -10,10 +10,10 @@ Trang phân phối APK chính thức của **KengStreamio** — ứng dụng xem
 
 ## ⬇️ Latest Release
 
-**[Download KengStreamio v1.11.4](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.4/kengstreamio-v1.11.4.apk)**  
-Version: `1.11.4` (build 1114) · Size: ~61.4 MB · 2026-03-28
+**[Download KengStreamio v1.11.6](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.6/kengstreamio-v1.11.6.apk)**  
+Version: `1.11.6` (build 13) · Size: ~61.4 MB · 2026-03-28
 
-> v1.11.4 Pro Update: Finalize automatic reporting & sync
+> v1.11.6 Pro Update
 
 ---
 
@@ -46,6 +46,7 @@ adb install -r kengstreamio-v1.0.0.apk
 
 | Version | Build | Date | Notes | Download |
 |---------|-------|------|-------|----------|
+| v1.11.6 | 13 | 2026-03-28 | v1.11.6 Pro Update | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.6/kengstreamio-v1.11.6.apk) |
 | v1.11.4 | 1114 | 2026-03-28 | v1.11.4 Pro Update: Finalize automati... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.4/kengstreamio-v1.11.4.apk) |
 | v1.11.3 | 1113 | 2026-03-28 | v1.11.3 Pro Update | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.3/kengstreamio-v1.11.3.apk) |
 | v1.11.2 | 1112 | 2026-03-28 | v1.11.2 Update | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.2/kengstreamio-v1.11.2.apk) |
