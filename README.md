@@ -1,6 +1,6 @@
 # KengStreamio — Android App Releases
 
-![Version](https://img.shields.io/badge/version-1.13.0-blue)
+![Version](https://img.shields.io/badge/version-1.14.6-blue)
 ![Platform](https://img.shields.io/badge/platform-Android%20TV%20%7C%20Phone-green)
 ![License](https://img.shields.io/badge/license-Private-red)
 
@@ -10,11 +10,15 @@ Trang phân phối APK chính thức của **KengStreamio** — ứng dụng xem
 
 ## ⬇️ Latest Release
 
-**[Download KengStreamio v1.13.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.13.0/kengstreamio-v1.13.0.apk)**  
-Version: `1.13.0` (build 21) · Size: ~230.0 MB · 2026-03-29
+**[Download KengStreamio v1.14.6](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.14.6/kengstreamio-v1.14.6-arm64-v8a.apk)**  
+Version: `1.14.6` (build 15) · Size: ~81.3 MB · 2026-04-03
 
-> • ⚡ HIGH — [Performance] Lazy load Categories screens
-> • [Deployment] Landing Page on GH Pages (Redirect to /web_landing)
+> • Rail Grouping v6 architecture (6x performance)
+> • APK size giảm 65%: 241MB → 85MB
+> • Hỗ trợ series multi-part episodes
+> • Force upgrade + JS cache clear
+> • Lazy load Categories screens
+> • Cải thiện tốc độ tải và search
 
 ---
 
@@ -47,6 +51,7 @@ adb install -r kengstreamio-v1.0.0.apk
 
 | Version | Build | Date | Notes | Download |
 |---------|-------|------|-------|----------|
+| v1.14.6 | 15 | 2026-04-03 | Rail Grouping v6 architecture (6x per... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.14.6/kengstreamio-v1.14.6-arm64-v8a.apk) |
 | v1.13.0 | 21 | 2026-03-29 | ⚡ HIGH — [Performance] Lazy load Cate... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.13.0/kengstreamio-v1.13.0.apk) |
 | v1.11.6 | 13 | 2026-03-28 | v1.11.6 Pro Update | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.6/kengstreamio-v1.11.6.apk) |
 | v1.11.4 | 1114 | 2026-03-28 | v1.11.4 Pro Update: Finalize automati... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.4/kengstreamio-v1.11.4.apk) |

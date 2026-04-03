@@ -1,6 +1,6 @@
 {
-    "version": "v1.13.0",
-    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.13.0/kengstreamio-v1.13.0.apk",
-    "date": "2026-03-29",
-    "notes": "⚡ HIGH — [Performance] Lazy load Categories screens"
+    "version": "v1.14.6",
+    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.14.6/kengstreamio-v1.14.6-arm64-v8a.apk",
+    "date": "2026-04-03",
+    "notes": "Rail Grouping v6 architecture (6x performance)"
 }
