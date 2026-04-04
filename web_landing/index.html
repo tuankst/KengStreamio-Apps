@@ -72,11 +72,15 @@
                 Trải nghiệm tốc độ cực nhanh với công nghệ tối ưu hóa luồng dữ liệu tiên tiến. 
                 Được thiết kế tỉ mỉ cho Android TV và thiết bị di động.
             </p>
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="https://github.com/tuankst/KengStreamio-Apps/releases/latest" class="download-btn w-full sm:w-auto bg-violet-main hover:bg-violet-700 text-white px-10 py-4 rounded-full text-lg font-bold flex items-center justify-center gap-2 glow-violet transition-all transform hover:scale-105">
-                    <i data-lucide="download" class="w-5 h-5"></i>
-                    Tải về APK (Bản Mới Nhất)
-                </a>
+            <div class="max-w-3xl mx-auto pt-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="hero-download-container">
+                    <!-- High-end buttons will be injected here by JS -->
+                    <div class="animate-pulse bg-white/5 h-32 rounded-3xl"></div>
+                    <div class="animate-pulse bg-white/5 h-32 rounded-3xl"></div>
+                </div>
+                <p class="mt-8 text-sm opacity-40 italic">
+                    Lưu ý: Nếu TV của bạn không cài được bản 64-bit, hãy sử dụng bản 32-bit để đảm bảo tương thích.
+                </p>
             </div>
         </div>
 
@@ -139,11 +143,9 @@
             <p class="text-lg opacity-60 mb-10 max-w-xl mx-auto">
                 Tải xuống bản APK ổn định nhất và tham gia vào cộng đồng KengStreamio ngay hôm nay.
             </p>
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-                <a href="https://github.com/tuankst/KengStreamio-Apps/releases/latest" class="download-btn bg-white text-black px-12 py-5 rounded-full text-xl font-bold flex items-center gap-3 transition-all transform hover:scale-105">
-                    <i data-lucide="package" class="w-6 h-6"></i>
-                    Tải APK (Bản Mới Nhất)
-                </a>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6" id="main-download-container">
+                <!-- Buttons will be injected here by JS -->
+                <div class="animate-pulse bg-white/5 h-16 w-72 rounded-full"></div>
             </div>
             <div class="mt-12 pt-12 border-t border-white/5 flex flex-wrap justify-center gap-10 opacity-40 grayscale">
                 <div class="flex items-center gap-2"><i data-lucide="smartphone" class="w-5 h-5"></i> Mobile Support</div>
@@ -176,39 +178,89 @@
         // Initialize Lucide Icons
         lucide.createIcons();
 
-        // Download logic: Pre-fetch latest release link with version display
+        // Download logic: Pre-fetch latest release links with rich UI
         async function initDownloadLinks() {
-                // Try to load from latest.json first (Custom Deploy)
-                let apkUrl = 'https://github.com/tuankst/KengStreamio-Apps/releases/latest';
-                let versionLabel = 'Bản Mới Nhất';
+                const heroContainer = document.getElementById('hero-download-container');
+                const mainContainer = document.getElementById('main-download-container');
+                
+                let versionLabel = 'v1.16.6'; // Default fallback
 
+                // 1. Parse JSON to get version
                 try {
-                    const localRes = await fetch('latest.json');
+                    const localRes = await fetch('latest.json?t=' + new Date().getTime());
                     if (localRes.ok) {
                         const localData = await localRes.json();
-                        apkUrl = localData.apk_url;
-                        versionLabel = localData.version;
-                    } else {
-                        throw new Error('Local JSON not found');
+                        versionLabel = localData.version || localData.tag_name || versionLabel;
                     }
                 } catch (e) {
-                    // Fallback to GitHub API
-                    const response = await fetch('https://api.github.com/repos/tuankst/KengStreamio-Apps/releases/latest');
-                    const data = await response.json();
-                    const apkAsset = data.assets.find(asset => asset.name.endsWith('.apk'));
-                    if (apkAsset) {
-                        apkUrl = apkAsset.browser_download_url;
-                        versionLabel = data.tag_name;
-                    }
+                    console.error('Không thể tải latest.json, sẽ dùng version mặc định', e);
                 }
 
-                document.querySelectorAll('.download-btn').forEach(btn => {
-                    btn.href = apkUrl;
-                    if (versionLabel !== 'Bản Mới Nhất') {
-                        btn.innerHTML = btn.innerHTML.replace(/Bản Mới Nhất|v\d+\.\d+\.\d+/g, versionLabel);
-                        lucide.createIcons();
+                // 2. ALWAYS generate 2 buttons based on the version
+                const githubRepo = 'tuankst/KengStreamio-Apps';
+                const baseUrl = `https://github.com/${githubRepo}/releases/download/${versionLabel}/kengstreamio-${versionLabel}`;
+                
+                const apkUrls = {
+                    "arm64-v8a": `${baseUrl}-arm64-v8a.apk`,
+                    "armeabi-v7a": `${baseUrl}-armeabi-v7a.apk`
+                };
+
+                // 3. Create Button HTML
+                const createBtn = (abi, url, isHero) => {
+                    const isV8 = abi === 'arm64-v8a';
+                    const isV7 = abi === 'armeabi-v7a';
+                    
+                    const label = isV8 ? 'Bản 64-bit' : 'Bản 32-bit';
+                    const subLabel = isV8 ? '(TV đời mới)' : '(TV đời cũ)';
+                    const desc = isV8 ? 'Tối ưu tốc độ cho TV 4K, Shield TV' : 'Hỗ trợ TV Box cổ, TV 32-bit thấp';
+                    const icon = isV8 ? 'zap' : 'monitor';
+                    
+                    if (isHero) {
+                        return `
+                            <a href="${url}" class="group relative glass p-6 rounded-[2rem] border border-white/5 hover:border-violet-500/50 transition-all text-left overflow-hidden flex-1">
+                                <div class="absolute -right-4 -bottom-4 opacity-5 group-hover:opacity-20 transition-opacity">
+                                    <i data-lucide="${icon}" class="w-24 h-24 text-violet-main"></i>
+                                </div>
+                                <div class="flex items-center gap-4 relative z-10">
+                                    <div class="w-12 h-12 bg-violet-main/10 rounded-2xl flex items-center justify-center text-violet-main group-hover:bg-violet-main group-hover:text-white transition-all shrink-0">
+                                        <i data-lucide="${icon}" class="w-6 h-6"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-xs font-bold text-violet-main mb-0.5">${versionLabel}</div>
+                                        <div class="text-xl font-bold flex items-baseline gap-1.5">
+                                            <span>${label}</span>
+                                            <span class="text-xs opacity-50 uppercase tracking-widest">${subLabel}</span>
+                                        </div>
+                                        <div class="text-[10px] opacity-40 leading-snug mt-1">${desc}</div>
+                                    </div>
+                                </div>
+                            </a>
+                        `;
                     }
-                });
+                    
+                    return `
+                        <a href="${url}" class="w-full sm:w-auto bg-white hover:bg-gray-200 text-black px-10 py-4 rounded-full text-base font-bold flex items-center justify-center gap-3 transition-all transform hover:scale-105">
+                            <i data-lucide="${icon}" class="w-5 h-5"></i>
+                            <div class="text-left leading-tight">
+                                <div class="text-[10px] opacity-60">${versionLabel}</div>
+                                <div>${label}</div>
+                            </div>
+                        </a>
+                    `;
+                };
+
+                const renderState = (container, isHero) => {
+                    if (!container) return;
+                    let html = '';
+                    // Force render exactly 2 buttons in exact order: v8a then v7a
+                    html += createBtn('arm64-v8a', apkUrls['arm64-v8a'], isHero);
+                    html += createBtn('armeabi-v7a', apkUrls['armeabi-v7a'], isHero);
+                    container.innerHTML = html;
+                };
+
+                renderState(heroContainer, true);
+                renderState(mainContainer, false);
+                lucide.createIcons();
         }
 
         document.addEventListener('DOMContentLoaded', initDownloadLinks);
