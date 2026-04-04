@@ -1,6 +1,6 @@
 {
-    "version": "v1.14.6",
-    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.14.6/kengstreamio-v1.14.6-arm64-v8a.apk",
-    "date": "2026-04-03",
-    "notes": "Rail Grouping v6 architecture (6x performance)"
+    "version": "v1.15.6",
+    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.15.6/kengstreamio-v1.15.6.apk",
+    "date": "2026-04-04",
+    "notes": "🔴 CRITICAL — [Bug Fix] Cache clearing false-positive fixed (no clear on init), batching 3 concurrent downloads implemented  DoD complete 2026-04-03, ready for merge"
 }

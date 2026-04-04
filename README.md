@@ -1,6 +1,6 @@
 # KengStreamio — Android App Releases
 
-![Version](https://img.shields.io/badge/version-1.14.6-blue)
+![Version](https://img.shields.io/badge/version-1.15.6-blue)
 ![Platform](https://img.shields.io/badge/platform-Android%20TV%20%7C%20Phone-green)
 ![License](https://img.shields.io/badge/license-Private-red)
 
@@ -10,15 +10,17 @@ Trang phân phối APK chính thức của **KengStreamio** — ứng dụng xem
 
 ## ⬇️ Latest Release
 
-**[Download KengStreamio v1.14.6](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.14.6/kengstreamio-v1.14.6-arm64-v8a.apk)**  
-Version: `1.14.6` (build 15) · Size: ~81.3 MB · 2026-04-03
+**[Download KengStreamio v1.15.6](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.15.6/kengstreamio-v1.15.6.apk)**  
+Version: `1.15.6` (build 16) · Size: ~81.3 MB · 2026-04-04
 
-> • Rail Grouping v6 architecture (6x performance)
-> • APK size giảm 65%: 241MB → 85MB
-> • Hỗ trợ series multi-part episodes
-> • Force upgrade + JS cache clear
-> • Lazy load Categories screens
-> • Cải thiện tốc độ tải và search
+> • 🔴 CRITICAL — [Bug Fix] Cache clearing false-positive fixed (no clear on init), batching 3 concurrent downloads implemented  DoD complete 2026-04-03, ready for merge
+> • ⚡ HIGH — [Bug Fix] Clear cache on source switch/delete (moved from 10.6)
+> • ⚡ HIGH — [Feature] Next Episode button + Play Next overlay (moved from 10.7)
+> • ⚡ MEDIUM — [Feature] Remove phim khỏi "Đang xem" rail từ Detail Panel (UX cleanup, user control)
+> • ⚡ MEDIUM — [Bug Fix] Rail "Top 10 phim bộ" ở rophim10 thiếu title trên movie cards (JS resolver data contract violation)
+> • ⚡ HIGH — [Bug Fix] Loại bỏ hoàn toàn phim status trailer khỏi các rails trang Home
+> • 🔴 CRITICAL — [Bug Fix] Fix ANR (treo app 30s) khi bấm Back thoát khỏi màn hình Player
+> • ⚡ HIGH — [Bug Fix] Cập nhật lại sai lệch Index từ điển filter Quốc Gia & Thể Loại nguồn rophim10
 
 ---
 
@@ -51,6 +53,7 @@ adb install -r kengstreamio-v1.0.0.apk
 
 | Version | Build | Date | Notes | Download |
 |---------|-------|------|-------|----------|
+| v1.15.6 | 16 | 2026-04-04 | 🔴 CRITICAL — [Bug Fix] Cache clearing... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.15.6/kengstreamio-v1.15.6.apk) |
 | v1.14.6 | 15 | 2026-04-03 | Rail Grouping v6 architecture (6x per... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.14.6/kengstreamio-v1.14.6-arm64-v8a.apk) |
 | v1.13.0 | 21 | 2026-03-29 | ⚡ HIGH — [Performance] Lazy load Cate... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.13.0/kengstreamio-v1.13.0.apk) |
 | v1.11.6 | 13 | 2026-03-28 | v1.11.6 Pro Update | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.11.6/kengstreamio-v1.11.6.apk) |
