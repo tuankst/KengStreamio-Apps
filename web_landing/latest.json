@@ -1,10 +1,10 @@
 {
-    "version": "v1.16.6",
+    "version": "v1.17.6",
     "apk_urls": {
-        "arm64-v8a": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.16.6/kengstreamio-v1.16.6-arm64-v8a.apk",
-        "armeabi-v7a": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.16.6/kengstreamio-v1.16.6-armeabi-v7a.apk"
+        "arm64-v8a": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.17.6/kengstreamio-v1.17.6-arm64-v8a.apk",
+        "armeabi-v7a": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.17.6/kengstreamio-v1.17.6-armeabi-v7a.apk"
     },
-    "date": "2026-04-04",
-    "notes": "🔴 CRITICAL — [Bug Fix] Cache clearing false-positive fixed (no clear on init), batching 3 concurrent downloads implemented  DoD complete 2026-04-03, ready for merge",
-    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.16.6/kengstreamio-v1.16.6-arm64-v8a.apk"
+    "date": "2026-04-05",
+    "notes": "legacy deferred state normalized",
+    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.17.6/kengstreamio-v1.17.6-arm64-v8a.apk"
 }
