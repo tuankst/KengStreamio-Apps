@@ -1,9 +1,10 @@
 {
-    "version": "v1.17.7",
+    "version": "v1.18.0",
     "apk_urls": {
-        "universal": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.17.7/kengstreamio-v1.17.7-arm64-v8a.apk"
+        "arm64-v8a": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.18.0/kengstreamio-v1.18.0-arm64-v8a.apk",
+        "armeabi-v7a": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.18.0/kengstreamio-v1.18.0-armeabi-v7a.apk"
     },
-    "date": "2026-04-06",
-    "notes": "Hotfix TV: giữ màn hình sáng trong lúc đang xem phim.\\nSửa lỗi screensaver sau ~5 phút trên Android TV.",
-    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.17.7/kengstreamio-v1.17.7-arm64-v8a.apk"
+    "date": "2026-04-07",
+    "notes": "legacy deferred state normalized",
+    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.18.0/kengstreamio-v1.18.0-arm64-v8a.apk"
 }
