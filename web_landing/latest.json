@@ -1,10 +1,6 @@
 {
-    "version": "v1.21.0",
-    "apk_urls": {
-        "arm64-v8a": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.21.0/kengstreamio-v1.21.0-arm64-v8a.apk",
-        "armeabi-v7a": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.21.0/kengstreamio-v1.21.0-armeabi-v7a.apk"
-    },
-    "date": "2026-04-08",
-    "notes": "13-9-player-last-watch-wrong-part-resume-bug",
-    "apk_url": "https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.21.0/kengstreamio-v1.21.0-arm64-v8a.apk"
+    "version": "v1.22.0",
+    "apk_urls": {},
+    "date": "2026-04-09",
+    "notes": "14-21-apk-split-aware-force-upgrade-install-flow"
 }

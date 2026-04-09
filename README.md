@@ -1,6 +1,6 @@
 # KengStreamio — Android App Releases
 
-![Version](https://img.shields.io/badge/version-1.21.0-blue)
+![Version](https://img.shields.io/badge/version-1.22.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Android%20TV%20%7C%20Phone-green)
 ![License](https://img.shields.io/badge/license-Private-red)
 
@@ -10,14 +10,11 @@ Trang phân phối APK chính thức của **KengStreamio** — ứng dụng xem
 
 ## ⬇️ Latest Release
 
-**[Download KengStreamio v1.21.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.21.0/kengstreamio-v1.21.0-arm64-v8a.apk)**  
-Version: `1.21.0` (build 2023) · Size: ~81.5 MB · 2026-04-08
+**[Download KengStreamio v1.22.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.22.0/kengstreamio-v1.22.0-arm64-v8a.apk)**  
+Version: `1.22.0` (build 24) · Size: ~81.5 MB · 2026-04-09
 
-> • 13-9-player-last-watch-wrong-part-resume-bug
-> • 13-10-player-episode-dialog-reopen-loses-part-focus-bug
-> • 13-11-phone-portrait-hud-compact-mode-hide-play-next
-> • 13-12-player-hud-external-player-launch-button
-> • 13-36-app-menu-shows-stale-version-after-github-apk-install
+> • 14-21-apk-split-aware-force-upgrade-install-flow
+> • 14-23-app-update-latest-version-info-null-safe-parse
 
 ---
 
@@ -50,6 +47,7 @@ adb install -r kengstreamio-v1.0.0.apk
 
 | Version | Build | Date | Notes | Download |
 |---------|-------|------|-------|----------|
+| v1.22.0 | 24 | 2026-04-09 | 14-21-apk-split-aware-force-upgrade-i... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.22.0/kengstreamio-v1.22.0-arm64-v8a.apk) |
 | v1.21.0 | 2023 | 2026-04-08 | 13-9-player-last-watch-wrong-part-res... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.21.0/kengstreamio-v1.21.0-arm64-v8a.apk) |
 | v1.20.0 | 2022 | 2026-04-07 | legacy deferred state normalized | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.20.0/kengstreamio-v1.20.0-arm64-v8a.apk) |
 | v1.19.0 | 2021 | 2026-04-07 | legacy deferred state normalized | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.19.0/kengstreamio-v1.19.0-arm64-v8a.apk) |
