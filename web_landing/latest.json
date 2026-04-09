@@ -1,6 +1,6 @@
 {
-    "version": "v1.22.0",
+    "version": "v1.23.0",
     "apk_urls": {},
     "date": "2026-04-09",
-    "notes": "14-21-apk-split-aware-force-upgrade-install-flow"
+    "notes": "Cập nhật và cải thiện hiệu suất."
 }
