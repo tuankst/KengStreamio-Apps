@@ -1,6 +1,6 @@
 {
-    "version": "v1.23.0",
+    "version": "v1.24.0",
     "apk_urls": {},
-    "date": "2026-04-09",
-    "notes": "Cập nhật và cải thiện hiệu suất."
+    "date": "2026-04-22",
+    "notes": "14-1-phone-exoplayer-portrait-stretch-aspect-ratio-bug"
 }
