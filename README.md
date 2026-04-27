@@ -1,6 +1,6 @@
 # KengStreamio — Android App Releases
 
-![Version](https://img.shields.io/badge/version-1.25.0-blue)
+![Version](https://img.shields.io/badge/version-1.26.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Android%20TV%20%7C%20Phone-green)
 ![License](https://img.shields.io/badge/license-Private-red)
 
@@ -10,10 +10,16 @@ Trang phân phối APK chính thức của **KengStreamio** — ứng dụng xem
 
 ## ⬇️ Latest Release
 
-**[Download KengStreamio v1.25.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.25.0/kengstreamio-v1.25.0-arm64-v8a.apk)**  
-Version: `1.25.0` (build 27) · Size: ~81.5 MB · 2026-04-22
+**[Download KengStreamio v1.26.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.26.0/kengstreamio-v1.26.0-arm64-v8a.apk)**  
+Version: `1.26.0` (build 28) · Size: ~81.6 MB · 2026-04-27
 
-> • 14-20-tv-category-design-v3-apply
+> • 15-29-category-filter-dialog-empty-result-investigation
+> • 15-30-category-empty-state-dpad-focus-recovery
+> • 15-31-search-tv-virtual-keyboard-persistence
+> • 15-32-see-all-load-more-dpad-focus-recovery
+> • 15-9-actor-data-availability-in-js-resolvers
+> • 15-27-detail-panel-imdb-rating-metadata
+> • 15-28-research-rophim1-top-provider
 
 ---
 
@@ -46,6 +52,7 @@ adb install -r kengstreamio-v1.0.0.apk
 
 | Version | Build | Date | Notes | Download |
 |---------|-------|------|-------|----------|
+| v1.26.0 | 28 | 2026-04-27 | 15-29-category-filter-dialog-empty-re... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.26.0/kengstreamio-v1.26.0-arm64-v8a.apk) |
 | v1.25.0 | 27 | 2026-04-22 | 14-20-tv-category-design-v3-apply | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.25.0/kengstreamio-v1.25.0-arm64-v8a.apk) |
 | v1.24.0 | 26 | 2026-04-22 | 14-1-phone-exoplayer-portrait-stretch... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.24.0/kengstreamio-v1.24.0-arm64-v8a.apk) |
 | v1.23.0 | 25 | 2026-04-09 | Cập nhật và cải thiện hiệu suất. | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.23.0/kengstreamio-v1.23.0-arm64-v8a.apk) |
