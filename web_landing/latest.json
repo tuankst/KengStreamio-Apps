@@ -1,6 +1,6 @@
 {
-    "version": "v1.27.0",
+    "version": "v1.28.0",
     "apk_urls": {},
     "date": "2026-04-28",
-    "notes": "15-29-category-filter-dialog-empty-result-investigation"
+    "notes": "16-1-home-last-watch-rail-refresh-after-category-navigation"
 }
