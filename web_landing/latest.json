@@ -1,6 +1,6 @@
 {
-    "version": "v1.28.0",
+    "version": "v1.29.0",
     "apk_urls": {},
-    "date": "2026-04-28",
-    "notes": "16-1-home-last-watch-rail-refresh-after-category-navigation"
+    "date": "2026-04-29",
+    "notes": "16-3-player-server-label-refresh-after-switch"
 }
