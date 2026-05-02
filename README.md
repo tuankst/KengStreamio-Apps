@@ -1,6 +1,6 @@
 # KengStreamio — Android App Releases
 
-![Version](https://img.shields.io/badge/version-1.30.0-blue)
+![Version](https://img.shields.io/badge/version-1.31.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Android%20TV%20%7C%20Phone-green)
 ![License](https://img.shields.io/badge/license-Private-red)
 
@@ -10,12 +10,13 @@ Trang phân phối APK chính thức của **KengStreamio** — ứng dụng xem
 
 ## ⬇️ Latest Release
 
-**[Download KengStreamio v1.30.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.30.0/kengstreamio-v1.30.0-arm64-v8a.apk)**  
-Version: `1.30.0` (build 32) · Size: ~81.6 MB · 2026-04-29
+**[Download KengStreamio v1.31.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.31.0/kengstreamio-v1.31.0-arm64-v8a.apk)**  
+Version: `1.31.0` (build 33) · Size: ~81.6 MB · 2026-05-02
 
-> • 16-16-tv-long-press-ok-opens-detail-panel
-> • 16-17-categories-right-reaches-active-grid-after-tab-focus-change
-> • 16-18-series-status-badge-support-research-for-rophim10-and-kkphim
+> • 16-22-actor-data-availability-across-providers
+> • 16-26-motphim-detail-thumbnail-and-badge-truncation
+> • 16-23-actor-detail-contract-and-resolver-update
+> • 16-24-detail-panel-actor-list-ux-spec
 
 ---
 
@@ -48,6 +49,7 @@ adb install -r kengstreamio-v1.0.0.apk
 
 | Version | Build | Date | Notes | Download |
 |---------|-------|------|-------|----------|
+| v1.31.0 | 33 | 2026-05-02 | 16-22-actor-data-availability-across-... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.31.0/kengstreamio-v1.31.0-arm64-v8a.apk) |
 | v1.30.0 | 32 | 2026-04-29 | 16-16-tv-long-press-ok-opens-detail-p... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.30.0/kengstreamio-v1.30.0-arm64-v8a.apk) |
 | v1.29.0 | 31 | 2026-04-29 | 16-3-player-server-label-refresh-afte... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.29.0/kengstreamio-v1.29.0-arm64-v8a.apk) |
 | v1.28.0 | 30 | 2026-04-28 | 16-1-home-last-watch-rail-refresh-aft... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.28.0/kengstreamio-v1.28.0-arm64-v8a.apk) |
