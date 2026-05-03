@@ -1,6 +1,6 @@
 {
-    "version": "v1.32.0",
+    "version": "v1.33.0",
     "apk_urls": {},
     "date": "2026-05-03",
-    "notes": "16-13-watch-history-save-rangeerror-guard"
+    "notes": "Cập nhật và cải thiện hiệu suất."
 }
