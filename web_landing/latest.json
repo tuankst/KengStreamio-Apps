@@ -1,6 +1,6 @@
 {
-    "version": "v1.31.0",
+    "version": "v1.32.0",
     "apk_urls": {},
-    "date": "2026-05-02",
-    "notes": "16-22-actor-data-availability-across-providers"
+    "date": "2026-05-03",
+    "notes": "16-13-watch-history-save-rangeerror-guard"
 }
