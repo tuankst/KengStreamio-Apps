@@ -1,6 +1,6 @@
 {
-    "version": "v1.37.0",
+    "version": "v1.38.0",
     "apk_urls": {},
     "date": "2026-05-03",
-    "notes": "Cập nhật và cải thiện hiệu suất."
+    "notes": "16-28-phone-auth-session-persistence-after-app-swipe-kill"
 }
