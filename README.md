@@ -1,6 +1,6 @@
 # KengStreamio — Android App Releases
 
-![Version](https://img.shields.io/badge/version-1.39.0-blue)
+![Version](https://img.shields.io/badge/version-1.40.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Android%20TV%20%7C%20Phone-green)
 ![License](https://img.shields.io/badge/license-Private-red)
 
@@ -10,8 +10,8 @@ Trang phân phối APK chính thức của **KengStreamio** — ứng dụng xem
 
 ## ⬇️ Latest Release
 
-**[Download KengStreamio v1.39.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.39.0/kengstreamio-v1.39.0-arm64-v8a.apk)**  
-Version: `1.39.0` (build 41) · Size: ~81.7 MB · 2026-05-04
+**[Download KengStreamio v1.40.0](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.40.0/kengstreamio-v1.40.0-arm64-v8a.apk)**  
+Version: `1.40.0` (build 42) · Size: ~81.7 MB · 2026-05-04
 
 > Cập nhật và cải thiện hiệu suất.
 
@@ -46,6 +46,7 @@ adb install -r kengstreamio-v1.0.0.apk
 
 | Version | Build | Date | Notes | Download |
 |---------|-------|------|-------|----------|
+| v1.40.0 | 42 | 2026-05-04 | Cập nhật và cải thiện hiệu suất. | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.40.0/kengstreamio-v1.40.0-arm64-v8a.apk) |
 | v1.39.0 | 41 | 2026-05-04 | Cập nhật và cải thiện hiệu suất. | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.39.0/kengstreamio-v1.39.0-arm64-v8a.apk) |
 | v1.38.0 | 40 | 2026-05-03 | 16-28-phone-auth-session-persistence-... | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.38.0/kengstreamio-v1.38.0-arm64-v8a.apk) |
 | v1.37.0 | 39 | 2026-05-03 | Cập nhật và cải thiện hiệu suất. | [Download](https://github.com/tuankst/KengStreamio-Apps/releases/download/v1.37.0/kengstreamio-v1.37.0-arm64-v8a.apk) |
